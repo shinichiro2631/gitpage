@@ -1,0 +1,76 @@
+m-2{
+    margin: 0.5rem !important;
+    }
+h1 {
+    color: #e80945;
+    text-shadow: 0 0 5px rgb(255, 255, 255);
+    border-left: solid 7px #ec6c6c;
+    background: -webkit-repeating-linear-gradient(-45deg, #eb508e, #e76871 3px,#f2648a 3px, #f15454 7px);
+    background: repeating-linear-gradient(-45deg, #e65555, #e65757 3px,#f66868 3px, #ea476d 7px);
+}
+h1:first-letter {
+    font-size: 2em;
+    color: #9630ea;
+  }
+.box10 {
+    padding: 0.5em 1em;
+    color: #e60505;
+    background: #f4e66d;/*背景色*/
+    border-top: solid 6px #da54b9;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.32);/*影*/
+}
+.box10 p {
+    margin: 0;
+    padding: 0;
+}
+.example2 {
+    margin: 0px 100px 0px 100px; /* 外側の余白を、上、右、下、左 */
+    padding: 0px 0px 0px 0px; /* 内側の余白を、上、右、下、左 */
+    background-color: rgb(240, 245, 137);
+    /* margin-top:10px; */
+    }
+    body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 400px 100px;
+    gap: 40px;
+}
+.grid-item {
+    text-align: center;
+}
+.example01 img {
+    width: 400px;
+    height: 250px;
+    margin-top:10px;
+ }
+ .example02 img {
+    width: 400px;
+    height: 250px;
+    margin-top:10px;
+ }
+ .example03 img {
+    width: 400px;
+    height: 250px;
+    margin-top:10px;
+ }
+ .example04 img {
+    width: 400px;
+    height: 250px;
+    margin-top:10px;
+ }
+ footer{
+    width: 100%;
+    height: 100px;
+    background-color: #E6E6FA;
+    color: black;
+    text-align: center;
+    margin: 400px auto 0 auto;
+}
+ul.footer-menu li {
+    display: inline;
+    }

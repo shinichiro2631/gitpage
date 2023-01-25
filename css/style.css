@@ -1,0 +1,28 @@
+bg_test {
+    text-align:  center;    /* 文字中央寄せ */
+    padding:  150px;        /* 余白指定 */
+    border: solid 2px;      /* 枠線指定 */
+    background-image: url(/images/blue.jpg);
+}
+body{
+	background-color: #DCDCDC;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 400px 400px;
+    gap: 20px;
+}
+
+.grid-item {
+    background-color: white;
+    text-align: left;
+}
+h1{
+    font-size:5em;
+	text-align:center;
+	line-height:0.95em;
+	font-weight:bold;
+ 	color: transparent;
+	-webkit-text-stroke: 0.02em rgba(255,255,255,1);
+}
